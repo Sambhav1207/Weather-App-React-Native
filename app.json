@@ -18,13 +18,20 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode":1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sambhav1207.WeatherApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d1a408da-1e63-47fe-bae3-4016a736da35"
+      }
     }
   }
 }
